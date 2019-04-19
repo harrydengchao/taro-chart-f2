@@ -20,7 +20,6 @@ $ npm i -S taro-chart-f2
   "weapp": {
     "compile": {
       "exclude": [
-        "src/wechat-native",
         "node_modules/taro-chart-f2/src/components/f2-canvas/lib/f2.js"
       ]
     }
