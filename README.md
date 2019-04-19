@@ -21,7 +21,7 @@ $ npm i -S taro-chart-f2
     "compile": {
       "exclude": [
         "src/wechat-native",
-        "node_modules/lib/taro-chart-f2/src/components/f2-canvas/lib/f2.js"
+        "node_modules/taro-chart-f2/src/components/f2-canvas/lib/f2.js"
       ]
     }
   }
@@ -31,7 +31,7 @@ $ npm i -S taro-chart-f2
 ## 用法
 
 ```javascript
-import { F2Canvas } from '@src/lib/taro-plugin-f2'
+import { F2Canvas } from 'taro-chart-f2'
 ```
 
 ## 示例
@@ -39,7 +39,7 @@ import { F2Canvas } from '@src/lib/taro-plugin-f2'
 ```javascript
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
-import { F2Canvas } from 'taro-f2'
+import { F2Canvas } from 'taro-chart-f2'
 
 // 绘制实例
 const draw = [
