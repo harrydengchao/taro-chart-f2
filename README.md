@@ -17,11 +17,11 @@ $ npm i -S taro-chart-f2
 修改项目配置文件 config/index.js 
 ```json
 {
-  weapp: {
-		compile: {
-      exclude: [
-        'src/wechat-native',
-        'node_modules/lib/taro-chart-f2/src/components/f2-canvas/lib/f2.js'
+  "weapp": {
+		"compile": {
+      "exclude": [
+        "src/wechat-native",
+        "node_modules/lib/taro-chart-f2/src/components/f2-canvas/lib/f2.js"
       ]
 		}
   }
@@ -58,8 +58,8 @@ export default class Index extends Component {
     ]
     // 模拟异步请求
     setTimeout(() => {
-      draw[group].chart.source(chartData)
-      draw[group].chart.repaint()
+      draw[0].chart.source(chartData)
+      draw[0].chart.repaint()
     }, 600)
   }
 
