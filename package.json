@@ -1,0 +1,25 @@
+{
+  "name": "taro-chart-f2",
+  "version": "0.0.1",
+  "description": "taro-chart-f2",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrydengchao/taro-chart-f2.git"
+  },
+  "keywords": [
+    "taro-chart-f2"
+  ],
+  "author": "dengchao2056@126.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harrydengchao/taro-chart-f2/issues"
+  },
+  "homepage": "https://github.com/harrydengchao/taro-chart-f2#readme",
+  "dependencies": {
+    "wolfy87-eventemitter": "^5.2.6"
+  }
+}
